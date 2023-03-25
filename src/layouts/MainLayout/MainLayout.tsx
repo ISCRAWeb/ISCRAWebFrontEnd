@@ -4,6 +4,8 @@ import { AppContextProvider, IAppContext } from "@/contexts/app.context";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 
+import cn from "classnames";
+
 interface MainLayoutProps {
   children;
 };

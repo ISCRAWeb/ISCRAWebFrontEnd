@@ -1,13 +1,11 @@
-import { DetailedHTMLProps, HTMLAttributes} from "react";
-import styles from "./Header.module.scss";
+.Header_img {
+  display: block;
+  width: 100px;
+  height: 50px; 
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
 
-interface HeaderProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>{
-};
-
-const Header = ({...props}: HeaderProps):JSX.Element => {
-  return (<div {...props}>
-     Header
-    </div>);
-};
-
-export default Header;
+.Header_nav_a {
+  font-family: 'Roboto';
+}
