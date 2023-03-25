@@ -15,9 +15,5 @@ export default function App({ Component, pageProps }: AppProps) {
     importUIkit();
   },[]);
 
-/*useEffect(() => {
-    UIkit.use(Icons)}, []
-  );*/
-
   return <Component {...pageProps} />
 }

@@ -1,8 +1,8 @@
 import { FunctionComponent } from "react";
 import { AppContextProvider, IAppContext } from "@/contexts/app.context";
 
-import  { Header } from "./components/Header";
-
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 
 interface MainLayoutProps {
   children;
@@ -12,9 +12,10 @@ const MainLayout = ({ children }: MainLayoutProps):JSX.Element => {
   return (
     <div>
       <Header/>
-      <div>
+      <main>
         {children}
-      </div>
+      </main>
+      <Footer />
     </div>);
 };
 
