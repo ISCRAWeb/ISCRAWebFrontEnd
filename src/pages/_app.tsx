@@ -1,6 +1,7 @@
 import type { AppProps } from 'next/app'
 import 'uikit/dist/css/uikit.min.css';
 import '@/styles/globals.css'
+import '@/styles/Home.module.css';
 
 import { useCallback, useEffect } from 'react';
 import Icons from 'uikit/dist/js/uikit-icons';

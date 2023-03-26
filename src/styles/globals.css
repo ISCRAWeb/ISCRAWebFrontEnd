@@ -104,3 +104,7 @@ a {
   }
 }
 */
+
+section.main-page-section {
+  min-height: calc(100vh - 105px);
+}
